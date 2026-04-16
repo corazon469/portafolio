@@ -1,0 +1,14 @@
+/*fonts */
+@font-face {
+    font-family: Racing;
+    src: url("Fuentes/Racing_Sans_One/RacingSansOne-Regular.ttf");
+  }
+  @font-face {
+    font-family:RedRose;
+    src: url("Fuentes/Red_Rose/static/RedRose-Regular.ttf");
+  }
+  @font-face {
+    font-family:RedRose;
+    src: url("Fuentes/Red_Rose/static/RedRose-Bold.ttf");
+  }
+
