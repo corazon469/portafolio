@@ -68,7 +68,7 @@ main{
 }
 
 .textoFondoBlanco p{
-  justify-self: center;
+    justify-self: center;
     color: #5C1212;
     font-family: BoldRose;
     font-size: 1.2vw;
