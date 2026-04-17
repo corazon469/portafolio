@@ -35,8 +35,9 @@
     justify-self: left;
     color: #F5F5DC;
     font-family: Racing;
-    font-size: 5.6vw;
-    margin-bottom: 1vw; margin-top: 1vw;
+    font-size: 8vw;
+    margin: 1vw;
+    margin-bottom: 0vw;
 }
 
 .nombreYperfil h3{
@@ -48,19 +49,25 @@
 }
 
 .nombreYperfil h2{
+  justify-self: center;
     color: #F5F5DC;
     background-color: #F04333;
     font-family: BoldRose;
-    font-size: 2vw;
+    font-size: 0.8vw;
     margin-bottom: 1vw;
 }
 
+
+
+
 .textoFondoBlanco{
-  padding: 2vw;
+    padding: 2vw;
     background-color: #F5F5DC;
 }
 
 .textoFondoBlanco p{
+  justify-self: center;
     color: #5C1212;
     font-family: BoldRose;
+    font-size: 0.8vw;
 }
