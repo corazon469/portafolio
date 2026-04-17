@@ -54,3 +54,13 @@
     font-size: 2vw;
     margin-bottom: 1vw;
 }
+
+
+.textoFondoBlanco{
+    background-color: #F5F5DC;
+}
+
+.textoFondoBlanco p{
+    color: #5C1212;
+    font-family: BoldRose;
+}
