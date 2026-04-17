@@ -12,10 +12,6 @@
     src: url("../Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
-main{
-    padding-left: 2vw; padding-right: 2vw;
-}
-
 .entrada{
     justify-items: center;
     display: flex;
@@ -23,6 +19,8 @@ main{
 }
 
 .nombreYperfil{
+    padding-left: 2vw; padding-right: 2vw;
+
     width: 50vw;
     padding-top: 0%;
 
@@ -40,7 +38,6 @@ main{
     font-family: Racing;
     font-size: 9vw;
     margin: 1vw;
-    margin-bottom: -1vw;
 }
 
 .subTitulo{
