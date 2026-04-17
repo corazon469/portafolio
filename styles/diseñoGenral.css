@@ -12,6 +12,11 @@
     src: url("../Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
+main{
+  background-color: #3430D5;
+}
+
+
 .entrada{
     justify-items: center;
     display: flex;
