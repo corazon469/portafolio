@@ -43,11 +43,15 @@ main{
     margin-bottom: -1vw;
 }
 
-.nombreYperfil h2{
+.subTitulo{
     width: 50vw;
+    background-color: #F04333;
+    margin-bottom: 1vw;
+}
+
+.subTitulo h2{
     justify-self: center;
     color: #F5F5DC;
-    background-color: #F04333;
     font-family: BoldRose;
     font-size: 1.2vw;
     margin-bottom: 1vw;
