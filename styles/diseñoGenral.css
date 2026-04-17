@@ -12,6 +12,9 @@
     src: url("../Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
+main{
+    margin-left: 2vw; margin-right: 2vw;
+}
 
 .entrada{
     justify-items: center;
@@ -35,30 +38,28 @@
     justify-self: left;
     color: #F5F5DC;
     font-family: Racing;
-    font-size: 8vw;
+    font-size: 9vw;
     margin: 1vw;
     margin-bottom: 0vw;
+}
+
+.nombreYperfil h2{
+    width: 100vw;
+    justify-self: center;
+    color: #F5F5DC;
+    background-color: #F04333;
+    font-family: BoldRose;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
 }
 
 .nombreYperfil h3{
     color: #F04333;
     background-color: #F5F5DC;
     font-family: Racing;
-    font-size: 5.6vw;
+    font-size: 5vw;
     margin-bottom: 1vw;
 }
-
-.nombreYperfil h2{
-  justify-self: center;
-    color: #F5F5DC;
-    background-color: #F04333;
-    font-family: BoldRose;
-    font-size: 0.8vw;
-    margin-bottom: 1vw;
-}
-
-
-
 
 .textoFondoBlanco{
     padding: 2vw;
@@ -69,5 +70,5 @@
   justify-self: center;
     color: #5C1212;
     font-family: BoldRose;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
 }
