@@ -8,7 +8,7 @@
     src: url("Fuentes/Red_Rose/static/RedRose-Regular.ttf");
   }
   @font-face {
-    font-family:RedRose;
+    font-family:BoldRose;
     src: url("Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
@@ -18,15 +18,37 @@
 .nombreYperfil{
     width: 50vw;
     padding-top: 0%;
+
+    background-color: #3430D5 ;
+
     display: flex;
     flex-direction:row;
+
     justify-items: center;
     overflow: hidden;
+
     margin-bottom: 6.5vw;
 }
+
 
 .nombreYperfil h1{
     color: #F5F5DC;
     font-family: Racing;
     font-size: 5.6vw;
+    margin-bottom: 1vw;
+}
+
+.nombreYperfil h2{
+    color: #F5F5DC;
+    font-family: Racing;
+    font-size: 5.6vw;
+    margin-bottom: 1vw;
+}
+
+.nombreYperfil a{
+    color: #F5F5DC;
+    background-color: #F04333;
+    font-family: BoldRose;
+    font-size: 2vw;
+    margin-bottom: 1vw;
 }
