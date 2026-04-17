@@ -13,7 +13,7 @@
   }
 
 main{
-    margin-left: 2vw; margin-right: 2vw;
+    padding-left: 2vw; padding-right: 2vw;
 }
 
 .entrada{
@@ -40,11 +40,11 @@ main{
     font-family: Racing;
     font-size: 9vw;
     margin: 1vw;
-    margin-bottom: 0vw;
+    margin-bottom: -1vw;
 }
 
 .nombreYperfil h2{
-    width: 100%;
+    width: 50vw;
     justify-self: center;
     color: #F5F5DC;
     background-color: #F04333;
@@ -62,6 +62,7 @@ main{
 }
 
 .textoFondoBlanco{
+    margin: 2vw;
     padding: 2vw;
     background-color: #F5F5DC;
 }
