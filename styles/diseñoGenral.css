@@ -44,7 +44,7 @@ main{
 }
 
 .nombreYperfil h2{
-    width: 100vw;
+    width: 100%;
     justify-self: center;
     color: #F5F5DC;
     background-color: #F04333;
