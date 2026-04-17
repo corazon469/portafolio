@@ -3,26 +3,26 @@
     font-family: Racing;
     src: url("Fuentes/Racing_Sans_One/RacingSansOne-Regular.ttf");
   }
-  @font-face {
+@font-face {
     font-family:RedRose;
     src: url("Fuentes/Red_Rose/static/RedRose-Regular.ttf");
   }
-  @font-face {
+@font-face {
     font-family:BoldRose;
     src: url("Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
 
-
+.entrada{
+    display: flex;
+    flex-direction:row;
+}
 
 .nombreYperfil{
     width: 50vw;
     padding-top: 0%;
 
-    background-color: #3430D5 ;
-
-    display: flex;
-    flex-direction:row;
+    background-color: #3430D5;
 
     justify-items: center;
     overflow: hidden;
@@ -38,14 +38,15 @@
     margin-bottom: 1vw;
 }
 
-.nombreYperfil h2{
-    color: #F5F5DC;
+.nombreYperfil h3{
+    color: #F04333;
+    background-color: #F5F5DC;
     font-family: Racing;
     font-size: 5.6vw;
     margin-bottom: 1vw;
 }
 
-.nombreYperfil a{
+.nombreYperfil h2{
     color: #F5F5DC;
     background-color: #F04333;
     font-family: BoldRose;
