@@ -15,7 +15,7 @@
 
 
 
-.entrada{
+.nombreYperfil{
     padding-top: 0%;
     display: flex;
     flex-direction:row;
@@ -24,7 +24,7 @@
     margin-bottom: 6.5vw;
 }
 
-.entrada h1{
+.nombreYperfil h1{
     font-family: Racing;
     font-size: 5.6vw;
 }
