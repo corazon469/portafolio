@@ -19,6 +19,7 @@ main{
 
 
 .entrada{
+    align-items: stretch;
     justify-items: center;
     display: flex;
     flex-direction:row;
@@ -34,7 +35,7 @@ main{
 
     overflow: hidden;
 
-    margin-bottom: 0vw;
+    margin-bottom: 20rem;
 }
 
 
