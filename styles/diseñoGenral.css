@@ -77,7 +77,6 @@ main{
 .tituloFondoBlanco{
     width: 50vw;
     margin: 0.5vw;
-    padding: 0.2vw;
     background-color: #F5F5DC;
 }
 
@@ -85,6 +84,5 @@ main{
     justify-self: center;
     color: #F04333;
     font-family: Racing;
-    font-size: 5vw;
-    margin: 0.8vw;
+    font-size: 4.5vw;
 }
