@@ -34,7 +34,7 @@ main{
 
     overflow: hidden;
 
-    margin-bottom: -1vw;
+    margin-bottom: 0vw;
 }
 
 
@@ -100,6 +100,7 @@ main{
 
 
 .herramientasY_Educacion{
+    padding: 1vw;
     padding-left: 8vw; 
     padding-right: 8vw;
 
