@@ -73,9 +73,9 @@ main{
 }
 
 .tituloFondoBlanco{
-
     margin: 0vw;
-    margin-top: 0.8vw; margin-bottom: 0.4vw;
+    margin-top: 0.8vw;
+    margin-bottom: 0.4vw;
     background-color: #F5F5DC;
 }
 
