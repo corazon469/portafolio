@@ -55,7 +55,7 @@ main{
 .fondoRosa h2{
     justify-self: center;
     color: #F5F5DC;
-    margin: 0vw;
+    margin: 0.2vw;
     font-family: BoldRose;
     font-size: 1.2vw;
 }
@@ -84,6 +84,6 @@ main{
     justify-self: center;
     color: #F04333;
     font-family: Racing;
-    font-size: 4vw;
+    font-size: 2.5vw;
     margin: 0vw;
 }
