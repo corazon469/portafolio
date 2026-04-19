@@ -12,6 +12,10 @@
     src: url("../Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
+html {
+    font-size: 24px;
+}
+
 main{
     margin: -0.83rem;
     background-color: #3430D5;
