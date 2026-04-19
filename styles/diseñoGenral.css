@@ -108,7 +108,7 @@ main{
     padding: 0.83rem;
     padding-left: 6.63rem; 
     padding-right: 6.63rem;
-    gap: 3.5rem;
+    gap: 6rem;
 
     display: flex;
     flex-direction:row;
@@ -125,7 +125,6 @@ main{
     flex-direction: column;
 
     justify-items: center;
-    width: 30vw;
 
     overflow: hidden;
 }
@@ -140,7 +139,6 @@ main{
 
 .cuadroDeInformacion div{
     margin-left: 3rem;
-    justify-self: center;
     display: flex;
     flex-direction: row;
 }
