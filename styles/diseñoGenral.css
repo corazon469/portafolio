@@ -108,7 +108,6 @@ main{
     padding: 0.83rem;
     padding-left: 6.63rem; 
     padding-right: 6.63rem;
-    margin-bottom: 5.38rem;
     gap: 3.5rem;
 
     display: flex;
@@ -127,7 +126,6 @@ main{
 
     justify-items: center;
     width: 30vw;
-    gap: 4rem;
 
     overflow: hidden;
 }
