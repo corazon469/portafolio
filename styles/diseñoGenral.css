@@ -106,8 +106,8 @@ main{
 
 .herramientasY_Educacion{
     padding: 0.83rem;
-    padding-left: 6.63rem; 
-    padding-right: 6.63rem;
+    padding-left: 7rem; 
+    padding-right: 7rem;
     gap: 6rem;
 
     display: flex;
@@ -138,7 +138,7 @@ main{
 }
 
 .cuadroDeInformacion div{
-    margin-left: 3rem;
+    margin-left: 2rem;
     display: flex;
     flex-direction: row;
 }
