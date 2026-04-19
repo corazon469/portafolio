@@ -119,3 +119,27 @@ main{
 
     overflow: hidden;
 }
+
+.cuadroDeInformacion{
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+    width: 25vw;
+    gap: 0.83rem;
+
+    overflow: hidden;
+}
+
+.cuadroDeInformacion h1{
+    color: #F5F5DC;
+    font-family: Racing;
+    font-size: 2.07rem;
+    margin: 0vw;
+    justify-self: left;
+}
+
+.cuadroDeInformacion div{
+    display: flex;
+    flex-direction: row;
+}
