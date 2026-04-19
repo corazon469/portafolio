@@ -13,7 +13,7 @@
   }
 
 main{
-    margin: -1vw;
+    margin: -0.83rem;
     background-color: #3430D5;
 }
 
@@ -26,7 +26,7 @@ main{
 }
 
 .nombreYperfil{
-    padding-left: 1vw; 
+    padding-left: 0.83rem; 
 
     width: 49vw;
     padding-top: 0%;
@@ -43,7 +43,7 @@ main{
     justify-self: left;
     color: #F5F5DC;
     font-family: Racing;
-    font-size: 9vw;
+    font-size: 7.45rem;
     margin: 0.3rem;
 }
 
@@ -57,7 +57,7 @@ main{
     color: #F5F5DC;
     margin: 0.2rem;
     font-family: BoldRose;
-    font-size: 1.4vw;
+    font-size: 1.16rem;
 }
 
 .textoFondoBlanco{
@@ -70,7 +70,7 @@ main{
     justify-self: left;
     color: #5C1212;
     font-family: BoldRose;
-    font-size: 1.2vw;
+    font-size: 0.99rem;
 }
 
 .tituloFondoBlanco{
@@ -84,7 +84,7 @@ main{
     justify-self: center;
     color: #F04333;
     font-family: Racing;
-    font-size: 2.5vw;
+    font-size: 2.07rem;
     margin: 0vw;
 }
 
@@ -101,9 +101,10 @@ main{
 
 
 .herramientasY_Educacion{
-    padding: 1vw;
-    padding-left: 8vw; 
-    padding-right: 8vw;
+    padding: 0.83rem;
+    padding-left: 6.63rem; 
+    padding-right: 6.63rem;
+    margin-bottom: 5.38rem;
 
     display: flex;
     flex-direction:row;
@@ -113,6 +114,4 @@ main{
     background-color: #F04333;
 
     overflow: hidden;
-
-    margin-bottom: 6.5vw;
 }
