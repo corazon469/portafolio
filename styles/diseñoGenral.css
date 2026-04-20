@@ -81,7 +81,6 @@ main{
 
 .textoFondoBlanco a{
     margin-top: 0rem; 
-    margin-bottom: 2rem;
     justify-self: left;
     color: #5C1212;
     font-family: RedRose;
@@ -116,10 +115,10 @@ main{
 
 
 .herramientasY_Educacion{
-    padding: 0.83rem;
-    padding-left: 1.2rem; 
-    padding-right: 1.2rem;
-    gap: 6rem;
+    padding: 1rem;
+    padding-left: 1.5rem; 
+    padding-right: 1.5rem;
+    gap: 3rem;
 
     display: flex;
     flex-direction:row;
