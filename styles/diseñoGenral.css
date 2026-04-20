@@ -30,7 +30,7 @@ main{
 }
 
 .nombreYperfil{
-    padding-left: 0.83rem; 
+    padding-left: 1.2rem; 
 
     width: 49vw;
     padding-top: 0%;
@@ -106,8 +106,8 @@ main{
 
 .herramientasY_Educacion{
     padding: 0.83rem;
-    padding-left: 7rem; 
-    padding-right: 7rem;
+    padding-left: 1.2rem; 
+    padding-right: 1.2rem;
     gap: 6rem;
 
     display: flex;
@@ -138,7 +138,7 @@ main{
 }
 
 .cuadroDeInformacion div{
-    margin-left: 2rem;
+    margin-left: 1.6rem;
     display: flex;
     flex-direction: row;
 }
