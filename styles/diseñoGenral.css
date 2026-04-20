@@ -71,7 +71,8 @@ main{
 }
 
 .textoFondoBlanco p{
-    margin-top: 0rem;margin-bottom: 0rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     justify-self: left;
     color: #5C1212;
     font-family: BoldRose;
@@ -79,7 +80,8 @@ main{
 }
 
 .textoFondoBlanco a{
-    margin-top: 0rem; margin-bottom: 1rem;
+    margin-top: 0rem; 
+    margin-bottom: 1rem;
     justify-self: left;
     color: #5C1212;
     font-family: RedRose;
