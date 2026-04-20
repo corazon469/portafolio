@@ -71,9 +71,18 @@ main{
 }
 
 .textoFondoBlanco p{
+    margin-top: 0vw;
     justify-self: left;
     color: #5C1212;
     font-family: BoldRose;
+    font-size: 0.99rem;
+}
+
+.textoFondoBlanco a{
+    margin-top: 0vw;
+    justify-self: left;
+    color: #5C1212;
+    font-family: RedRose;
     font-size: 0.99rem;
 }
 
