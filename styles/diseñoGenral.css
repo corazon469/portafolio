@@ -141,12 +141,3 @@ main{
     margin: 0vw;
     justify-self: left;
 }
-
-
-footer{
-    display: flex;
-    background-color:  #F5F5DC;
-    padding: 3rem;
-    align-items: center;
-    justify-items: center;
-}
