@@ -14,6 +14,9 @@ const secciones = [
     }
 ];
 
+let touchStartY = 0;
+let touchEndY = 0;
+
 let indiceActual = 0;
 let bloqueado = false;
 
@@ -45,6 +48,20 @@ function cambiarSeccion(direccion) {
     }, 800); // evita que cambie muy rápido
 }
 
+
+function manejarSwipe() {
+    const diferencia = touchStartY - touchEndY;
+
+    if (Math.abs(diferencia) < 50) return; // evita cambios accidentales
+
+    if (diferencia > 0) {
+        cambiarSeccion(1); // swipe hacia arriba
+    } else {
+        cambiarSeccion(-1); // swipe hacia abajo
+    }
+}
+
+
 // detectar scroll
 window.addEventListener("wheel", (e) => {
     if (e.deltaY > 0) {
@@ -53,3 +70,16 @@ window.addEventListener("wheel", (e) => {
         cambiarSeccion(-1); // arriba
     }
 });
+
+
+
+//detectar touch
+window.addEventListener("touchstart", (e) => {
+    touchStartY = e.changedTouches[0].screenY;
+});
+
+window.addEventListener("touchend", (e) => {
+    touchEndY = e.changedTouches[0].screenY;
+    manejarSwipe();
+});
+
