@@ -109,6 +109,7 @@ main{
 
 
 .herramientasY_Educacion{
+    justify-content: center;
     padding-left: 1.5rem; 
     padding-right: 1.5rem;
     gap: 3rem;
