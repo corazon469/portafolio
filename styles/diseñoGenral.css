@@ -107,6 +107,27 @@ main{
 
 
 
+.videos{
+    padding-right: 1.2rem; 
+
+    width: 49vw;
+    padding-top: 0%;
+
+    background-color: black;
+
+    overflow: hidden;
+
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
 
 .herramientasY_Educacion{
     justify-content: center;
