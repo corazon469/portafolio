@@ -31,6 +31,7 @@ main{
 
 .nombreYperfil{
     padding-left: 1.2rem; 
+    padding-right: 1.2rem;
 
     width: 49vw;
     padding-top: 0%;
@@ -119,10 +120,6 @@ main{
 
     margin-bottom: 2rem;
 }
-
-
-
-
 
 
 
