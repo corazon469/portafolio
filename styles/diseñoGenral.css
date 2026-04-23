@@ -121,7 +121,9 @@ main{
 }
 
 .videos video {
-    justify-self: right;
+    object-position: center;
+    object-fit: cover;
+    justify-self: center;
 }
 
 
