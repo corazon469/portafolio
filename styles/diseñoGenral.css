@@ -106,10 +106,7 @@ main{
 
 
 
-.videos{
-    display: flex;
-    justify-content: center;
-        
+.videosCont{
     touch-action: none;
 
     margin-right: 1.2rem; 
@@ -122,7 +119,12 @@ main{
     margin-bottom: 2rem;
 }
 
-.videos video {
+.vid{
+  display: flex;
+  justify-content: center;
+}
+
+.vid video {
     justify-self: center;
     height: max-content;
 }
