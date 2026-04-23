@@ -1,4 +1,4 @@
-const contenedorDeVideos = document.querySelector(".videos");
+const contenedorDeVideos = document.querySelector(".videosCont");
 
 const secciones = [
     {
