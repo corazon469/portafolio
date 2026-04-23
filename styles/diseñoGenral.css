@@ -107,10 +107,12 @@ main{
 
 
 .videos{
+    display: flex;
+    justify-content: center;
+        
     touch-action: none;
 
     margin-right: 1.2rem; 
-
     width: 49vw;
     padding-top: 0%;
 
@@ -121,9 +123,8 @@ main{
 }
 
 .videos video {
-    object-position: center;
-    object-fit: cover;
     justify-self: center;
+    height: max-content;
 }
 
 
