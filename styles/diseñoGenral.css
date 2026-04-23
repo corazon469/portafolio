@@ -111,7 +111,7 @@ main{
 .videos{
     touch-action: none;
 
-    
+
     margin-right: 1.2rem; 
 
     width: 49vw;
@@ -121,6 +121,7 @@ main{
 
     overflow: hidden;
 
+    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
@@ -137,6 +138,7 @@ main{
 
     display: flex;
     flex-direction:row;
+    align-items: flex-start;
 
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
