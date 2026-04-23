@@ -106,18 +106,13 @@ main{
 
 
 
-
-
 .videos{
     touch-action: none;
-
 
     margin-right: 1.2rem; 
 
     width: 49vw;
     padding-top: 0%;
-
-    background-color: black;
 
     overflow: hidden;
 
@@ -126,9 +121,8 @@ main{
 }
 
 .videos video {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-self: center;
+    object-fit: cover;
 }
 
 
