@@ -3,16 +3,16 @@ const contenedorDeVideos = document.querySelector(".videos");
 const secciones = [
     {
         nombre: "Diseño",
-        video: "videos/diseño.mp4"
+        video:"../videos/muñecaDiseño.mp4"
     },
 
     {
         nombre: "Ilustración",
-        video: "videos/ilustracion.mp4"
+        video:"../videos/muñecaIlustracion.mp4"
     },
     {
         nombre: "Programación",
-        video: "videos/programacion.mp4"
+        video:"../videos/muñecaProgramacion.mp4"
     }
 ];
 
