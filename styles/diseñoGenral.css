@@ -109,6 +109,9 @@ main{
 
 
 .videos{
+    touch-action: none;
+
+    
     margin-right: 1.2rem; 
 
     width: 49vw;

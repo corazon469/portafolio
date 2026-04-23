@@ -1,4 +1,3 @@
-
 const contenedorDeVideos = document.querySelector(".videos");
 
 const secciones = [
@@ -74,7 +73,7 @@ contenedorDeVideos.addEventListener("wheel", (e) => {
     } else {
         cambiarSeccion(-1); // arriba
     }
-}, { passive: false })
+}, { passive: false });
 
 
 
@@ -84,11 +83,6 @@ contenedorDeVideos.addEventListener("touchstart", (e) => {
 });
 
 contenedorDeVideos.addEventListener("touchend", (e) => {
-    e.preventDefault();
     touchEndY = e.changedTouches[0].screenY;
     manejarSwipe();
 });
-
-contenedorDeVideos.addEventListener("touchmove", (e) => {
-    e.preventDefault();
-}, { passive: false });
