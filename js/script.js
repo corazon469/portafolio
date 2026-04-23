@@ -1,3 +1,6 @@
+
+const contenedorDeVideos = document.querySelector(".videos");
+
 const secciones = [
     {
         nombre: "Diseño",
@@ -63,23 +66,29 @@ function manejarSwipe() {
 
 
 // detectar scroll
-window.addEventListener("wheel", (e) => {
+contenedorDeVideos.addEventListener("wheel", (e) => {
+    e.preventDefault(); 
+
     if (e.deltaY > 0) {
         cambiarSeccion(1); // abajo
     } else {
         cambiarSeccion(-1); // arriba
     }
-});
+}, { passive: false })
 
 
 
 //detectar touch
-window.addEventListener("touchstart", (e) => {
+contenedorDeVideos.addEventListener("touchstart", (e) => {
     touchStartY = e.changedTouches[0].screenY;
 });
 
-window.addEventListener("touchend", (e) => {
+contenedorDeVideos.addEventListener("touchend", (e) => {
+    e.preventDefault();
     touchEndY = e.changedTouches[0].screenY;
     manejarSwipe();
 });
 
+contenedorDeVideos.addEventListener("touchmove", (e) => {
+    e.preventDefault();
+}, { passive: false });
