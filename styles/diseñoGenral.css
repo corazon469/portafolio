@@ -114,15 +114,14 @@ main{
     width: 49vw;
     padding-top: 0%;
 
-    overflow: hidden;
+    overflow: clip;
 
     margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
 .videos video {
-    justify-self: center;
-    object-fit: cover;
+    justify-self: right;
 }
 
 
