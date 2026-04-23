@@ -125,7 +125,9 @@ main{
     margin-bottom: 2rem;
 }
 
-
+video{
+    align-self: center;
+}
 
 
 
