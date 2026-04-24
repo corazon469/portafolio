@@ -123,13 +123,11 @@ main{
 .vid{
     height: auto;
     width:inherit;
+    aspect-ratio: 4 / 3;
     display: flex;
     justify-content: center;
 }
 
-.vid video {
-    justify-self: center;
-}
 
 
 
