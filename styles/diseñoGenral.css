@@ -122,7 +122,6 @@ main{
 
 .vid{
     width:inherit;
-    height: 9rem;
     display: flex;
     justify-content: center;
 }
