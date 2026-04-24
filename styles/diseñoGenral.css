@@ -114,6 +114,7 @@ main{
 
     margin-right: 1.2rem; 
     width: 49vw;
+    height: max-content;
     padding-top: 0%;
 
     overflow: clip;
