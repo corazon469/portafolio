@@ -37,6 +37,7 @@ main{
 
     width: 49vw;
     padding-top: 0%;
+    padding-bottom: 6rem;
 
     background-color: #3430D5;
 
@@ -115,7 +116,6 @@ main{
     margin-right: 1.2rem; 
     width: 49vw;
     padding-top: 0%;
-    padding-bottom: 3rem;
 
     overflow: clip;
 
