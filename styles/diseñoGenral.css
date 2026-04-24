@@ -121,6 +121,7 @@ main{
 }
 
 .vid{
+    height: auto;
     width:inherit;
     display: flex;
     justify-content: center;
