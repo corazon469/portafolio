@@ -30,6 +30,8 @@ main{
 }
 
 .nombreYperfil{
+    align-self: center;
+
     padding-left: 1.2rem; 
     padding-right: 1.2rem;
 
@@ -123,7 +125,6 @@ main{
 .vid{
     height: auto;
     width:inherit;
-    aspect-ratio: 4 / 3;
     display: flex;
     justify-content: center;
 }
