@@ -40,7 +40,7 @@ const container = document.getElementById("fallingContainer");
 
 for (let i = 0; i < 20; i++) {
     const img = document.createElement("img");
-    img.src = "imgenes/STAR8.png"; 
+    img.src = "../imgs/STAR8.png"; 
     img.classList.add("falling");
 
     const size = Math.random() * 100 + 50;
