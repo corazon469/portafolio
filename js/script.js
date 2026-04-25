@@ -35,6 +35,26 @@ const source = document.getElementById("videoSource");
 const texto = document.getElementById("seccionActual");
 
 
+//estrellas
+const container = document.getElementById("fallingContainer");
+
+for (let i = 0; i < 20; i++) {
+    const img = document.createElement("img");
+    img.src = "img1.png"; // puedes variar esto
+    img.classList.add("falling");
+
+    const size = Math.random() * 100 + 50;
+    const left = Math.random() * 100;
+    const duration = Math.random() * 10 + 5;
+    const delay = Math.random() * 15;
+
+    img.style.width = size + "px";
+    img.style.left = left + "vw";
+    img.style.animationDuration = duration + "s";
+    img.style.animationDelay = delay + "s";
+
+    container.appendChild(img);
+}
 
 //funciones
 function cambiarSeccion(direccion) {
