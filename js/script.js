@@ -1,3 +1,7 @@
+
+
+
+//var
 const contenedorDeVideos = document.querySelector(".videosCont");
 
 const secciones = [
@@ -22,10 +26,17 @@ let touchEndY = 0;
 let indiceActual = 0;
 let bloqueado = false;
 
+let firstPlay = true;
+const startLoop = 5;
+const endLoop = 20;
+
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
 const texto = document.getElementById("seccionActual");
 
+
+
+//funciones
 function cambiarSeccion(direccion) {
     if (bloqueado) return;
     bloqueado = true;
@@ -63,11 +74,23 @@ function manejarSwipe() {
     }
 }
 
-video.addEventListener("timeupdate", () => {
-    if (video.currentTime >= 5) {
-        video.pause();
-        video.currentTime = 5; // opcional: lo deja clavado en el segundo 5
+
+
+
+
+
+//loop personalizado 
+video.addEventListener("play", () => {
+    if (firstPlay) {
+        video.currentTime = 0;
+        firstPlay = false;
     }
+});
+
+video.addEventListener("timeupdate", () => {
+     if (!firstPlay && video.currentTime >= endLoop) {
+         video.currentTime = startLoop + 0.01; 
+    } 
 });
 
 // detectar scroll
