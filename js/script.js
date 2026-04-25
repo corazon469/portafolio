@@ -38,12 +38,12 @@ const texto = document.getElementById("seccionActual");
 //estrellas
 const container = document.getElementById("fallingContainer");
 
-for (let i = 0; i < 20; i++) {
+for (let i = 0; i < 12; i++) {
     const img = document.createElement("img");
     img.src = "imgs/STAR8.png"; 
     img.classList.add("falling");
 
-    const size = Math.random() * 100 + 50;
+    const size = Math.random() * 50 + 25;
     const left = Math.random() * 100;
     const duration = Math.random() * 10 + 5;
     const delay = Math.random() * 15;
