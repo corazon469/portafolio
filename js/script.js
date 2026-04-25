@@ -27,8 +27,8 @@ let indiceActual = 0;
 let bloqueado = false;
 
 let firstPlay = true;
-const startLoop = 5;
-const endLoop = 20;
+const startLoop = 15;
+const endLoop = 21;
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
