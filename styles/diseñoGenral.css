@@ -31,7 +31,6 @@ main{
     height: 150vh;
     pointer-events: none;
     overflow: hidden;
-    z-index: 999;
 }
 
 .falling {
