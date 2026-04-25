@@ -27,8 +27,18 @@ html {
 }
 
 main{
-    margin-bottom: 0rem;
     background-color: #39003C;
+    /* Cuadrícula */
+    background-image: 
+        linear-gradient(rgb(253, 255, 139) 1px, transparent 2px),
+        linear-gradient(90deg, rgb(255, 195, 139)  1px, transparent 2px);
+
+    background-size: 30px 30px;
+
+    margin-bottom: 0rem;
+
+    animation: 
+        moveGrid 5s linear infinite,
 }
 
 
@@ -85,20 +95,9 @@ main{
     padding-top: 3rem;
     padding-bottom: 3rem;
 
-    background-color: #39003C;
-    /* Cuadrícula */
-    background-image: 
-        linear-gradient(rgb(253, 255, 139) 1px, transparent 5px),
-        linear-gradient(90deg, rgb(255, 195, 139)  1px, transparent 5px);
-
-    background-size: 50px 50px;
-
     overflow: hidden;
 
     margin-bottom: 2rem;
-
-    animation: 
-        moveGrid 5s linear infinite,
 }
 
 
