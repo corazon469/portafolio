@@ -13,6 +13,14 @@
   }
 
 
+/*animaciones*/
+@keyframes moveGrid {
+    from { background-position: 0 0; }
+    to   { background-position: 50px 50px; }
+}
+
+
+
 html {
     font-size: 24px;
     z-index: 0;
@@ -78,10 +86,19 @@ main{
     padding-bottom: 3rem;
 
     background-color: #39003C;
+    /* Cuadrícula */
+    background-image: 
+        linear-gradient(rgb(253, 255, 139) 1px, transparent 5px),
+        linear-gradient(90deg, rgb(255, 195, 139)  1px, transparent 5px);
+
+    background-size: 50px 50px;
 
     overflow: hidden;
 
     margin-bottom: 2rem;
+
+    animation: 
+        moveGrid 5s linear infinite,
 }
 
 
