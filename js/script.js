@@ -63,6 +63,11 @@ function manejarSwipe() {
     }
 }
 
+video.addEventListener("loadedmetadata", () => {
+    setTimeout(() => {
+        video.pause();
+    }, 5000); // 5 segundos
+});
 
 // detectar scroll
 contenedorDeVideos.addEventListener("wheel", (e) => {
