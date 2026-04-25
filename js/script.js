@@ -38,7 +38,7 @@ const texto = document.getElementById("seccionActual");
 //estrellas
 const container = document.getElementById("fallingContainer");
 
-for (let i = 0; i < 12; i++) {
+for (let i = 0; i < 20; i++) {
     const img = document.createElement("img");
 
     const sources = ["imgs/Star8.png", "imgs/Star9.png", "imgs/Star10.png"];
