@@ -58,7 +58,7 @@ main{
 
 .fondoRosa{
     padding: 0.1rem;
-    background-color: #FF1500;
+    background-color: #FF5900;
 }
 
 .fondoRosa h2{
@@ -126,7 +126,7 @@ main{
 
 .tituloFondoBlanco h3{
     justify-self: center;
-    color: #FF1500;
+    color: #FF5900;
     font-family: Racing;
     font-size: 2.07rem;
     margin: 0vw;
@@ -172,7 +172,7 @@ main{
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
 
-    background-color: #FF1500;
+    background-color: #FF5900;
 
     overflow: hidden;
 }
