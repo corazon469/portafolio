@@ -63,10 +63,11 @@ function manejarSwipe() {
     }
 }
 
-video.addEventListener("loadedmetadata", () => {
-    setTimeout(() => {
+video.addEventListener("timeupdate", () => {
+    if (video.currentTime >= 5) {
         video.pause();
-    }, 5000); // 5 segundos
+        video.currentTime = 5; // opcional: lo deja clavado en el segundo 5
+    }
 });
 
 // detectar scroll
