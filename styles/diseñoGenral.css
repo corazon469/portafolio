@@ -30,10 +30,10 @@ body{
     background-color: #39003C;
     /* Cuadrícula */
     background-image: 
-        linear-gradient(rgba(253, 255, 139, 0.05) 1px, transparent 2px),
-        linear-gradient(90deg, rgba(255, 195, 139, 0.05)  1px, transparent 2px);
+        linear-gradient(rgba(253, 255, 139, 0.02) 1px, transparent 2px),
+        linear-gradient(90deg, rgba(255, 195, 139, 0.02)  1px, transparent 2px);
 
-    background-size: 30px 30px;
+    background-size: 60px 60px;
 
     animation: 
         moveGrid 5s linear infinite;
