@@ -28,7 +28,7 @@ html {
 
 body{
     background:
-        linear-gradient(to left, #39003C, #29032c, #000000);
+        linear-gradient(270deg, #39003C, #29032c, #000000);
         
     /* Cuadrícula */
     background-image: 
