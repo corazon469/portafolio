@@ -12,13 +12,14 @@
     src: url("../Fuentes/Red_Rose/static/RedRose-Bold.ttf");
   }
 
+
 html {
     font-size: 24px;
 }
 
 main{
     margin-bottom: 0rem;
-    background-color: #3430D5;
+    background-color: #2E045C;
 }
 
 
@@ -39,7 +40,7 @@ main{
     padding-top: 3rem;
     padding-bottom: 3rem;
 
-    background-color: #3430D5;
+    background-color: #2E045C;
 
     overflow: hidden;
 
@@ -57,7 +58,7 @@ main{
 
 .fondoRosa{
     padding: 0.1rem;
-    background-color: #F04333;
+    background-color: #FF1500;
 }
 
 .fondoRosa h2{
@@ -67,6 +68,31 @@ main{
     font-family: BoldRose;
     font-size: 1.16rem;
 }
+
+
+.textoFondoMarron{
+    margin: 0vw;
+    padding: 1rem;
+    background-color: #5C1212;
+}
+
+.textoFondoMarron p{
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    justify-self: left;
+    color: #F5F5DC;
+    font-family: BoldRose;
+    font-size: 0.99rem;
+}
+
+.textoFondoMarron a{
+    margin-top: 0rem; 
+    justify-self: left;
+    color: #F5F5DC;
+    font-family: RedRose;
+    font-size: 0.99rem;
+}
+
 
 .textoFondoBlanco{
     margin: 0vw;
@@ -100,7 +126,7 @@ main{
 
 .tituloFondoBlanco h3{
     justify-self: center;
-    color: #F04333;
+    color: #FF1500;
     font-family: Racing;
     font-size: 2.07rem;
     margin: 0vw;
@@ -146,7 +172,7 @@ main{
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
 
-    background-color: #F04333;
+    background-color: #FF1500;
 
     overflow: hidden;
 }
