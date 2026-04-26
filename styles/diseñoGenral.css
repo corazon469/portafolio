@@ -32,7 +32,7 @@ body{
         linear-gradient(90deg, rgba(255, 195, 139, 0.2) 2px, transparent 1px),
         linear-gradient(to left, #39003C, #29032c, #000000);
 
-    background-size:  30px 30px, 30px 30px, 400% 400%;
+    background-size:  30px 30px, 30px 30px, 150%, 150%;
 
     animation: 
         moveGrid 5s linear infinite;
