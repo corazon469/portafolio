@@ -236,8 +236,8 @@ main{
     background-color: #FF5900;
     
     background-image:
-        linear-gradient(rgba(224, 124, 255, 0.2) 3px, transparent 3px),
-        linear-gradient(90deg, rgba(240, 169, 202, 0.2) 3px, transparent 3px);
+        linear-gradient(rgba(224, 124, 255, 0.5) 3px, transparent 3px),
+        linear-gradient(90deg, rgba(240, 169, 202, 0.5) 3px, transparent 3px);
 
     background-size: 30px 30px;
 
