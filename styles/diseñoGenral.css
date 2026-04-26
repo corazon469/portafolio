@@ -236,8 +236,8 @@ main{
     background-color: #FF5900;
     
     background-image:
-        radial-gradient(rgba(68, 0, 0, 0.7) 3px, transparent 3px),
-        radial-gradient(rgba(77, 0, 4, 0.7) 3px, transparent 3px);
+        radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
+        radial-gradient(rgba(77, 0, 4, 0.7) 2px, transparent 2px);
 
     background-size: 30px 30px;
 
