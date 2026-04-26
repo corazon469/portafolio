@@ -35,7 +35,7 @@ body{
         linear-gradient(90deg, rgba(255, 195, 139, 0.2) 2px, transparent 1px),
         linear-gradient(to right, #39003C, #29032c, #000000);
 
-    background-size:  30px 30px, 30px 30px, 150%, 150%;
+    background-size:  30px 30px, 30px 30px, 110%, 110%;
 
     animation: 
         moveGrid 5s linear infinite;
@@ -64,7 +64,7 @@ main{
     animation: fall linear infinite;
     mix-blend-mode: invert(1);
     filter: contrast(1.2) brightness(1.1);
-    opacity: 0.6;
+    opacity: 0.08;
     z-index: 0;
 }
 /* Animación */
