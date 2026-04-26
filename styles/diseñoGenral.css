@@ -23,6 +23,20 @@
     }
 }
 
+@keyframes fall {
+    0% {
+        transform: translateY(-20px) rotate(0deg);
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(200vh) rotate(360deg);
+        opacity: 0.8;
+    }
+}
+
 
 html {
     font-size: 24px;
@@ -67,20 +81,7 @@ main{
     opacity: 0.02;
     z-index: 0;
 }
-/* Animación */
-@keyframes fall {
-    0% {
-        transform: translateY(-20px) rotate(0deg);
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    100% {
-        transform: translateY(200vh) rotate(360deg);
-        opacity: 0.8;
-    }
-}
+
 
 
 .entrada{
@@ -233,8 +234,15 @@ main{
     padding-bottom: 2.5rem;
 
     background-color: #FF5900;
+    
+    background:
+        linear-gradient(rgba(31, 2, 43, 0.2) 2px, transparent 1px),
+        linear-gradient(90deg, rgba(77, 0, 4, 0.2) 2px, transparent 1px);
 
     overflow: hidden;
+
+    animation: 
+        moveGrid 5s linear infinite;
 }
 
 .cuadroDeInformacion{
