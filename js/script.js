@@ -29,9 +29,13 @@ let bloqueado = false;
 const startLoop = 15;
 const endLoop = 21;
 
+let ultimoScroll = 0;
+const delayScroll = 800;
+
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
 const texto = document.getElementById("seccionActual");
+const overlay = document.querySelector(".fadeOverlay");
 
 
 //estrellas
@@ -70,20 +74,28 @@ function cambiarSeccion(direccion) {
     if (bloqueado) return;
     bloqueado = true;
 
-    indiceActual += direccion;
+    
+    overlay.classList.add("activo");
 
-    if (indiceActual < 0) indiceActual = 0;
-    if (indiceActual >= secciones.length) indiceActual = secciones.length - 1;
+    setTimeout(() => {
+        indiceActual += direccion;
 
-    const nueva = secciones[indiceActual];
+        if (indiceActual < 0) indiceActual = 0;
+        if (indiceActual >= secciones.length) indiceActual = secciones.length - 1;
 
-    // cambiar texto
-    texto.textContent = ">" + nueva.nombre;
+        const nueva = secciones[indiceActual];
 
-    // cambiar video
-    source.src = nueva.video;
-    video.load();
-    video.play();
+        texto.textContent = ">" + nueva.nombre;
+
+        source.src = nueva.video;
+        video.load();
+        video.play();
+
+        // fade de regreso
+        overlay.classList.remove("activo");
+
+    }, 400); // coincide con el CSS
+
 
     setTimeout(() => {
         bloqueado = false;
@@ -127,15 +139,19 @@ video.addEventListener("timeupdate", () => {
 
 // detectar scroll
 contenedorDeVideos.addEventListener("wheel", (e) => {
-    e.preventDefault(); 
+    e.preventDefault();
+
+    const ahora = Date.now();
+
+    if (ahora - ultimoScroll < delayScroll) return;
+    ultimoScroll = ahora;
 
     if (e.deltaY > 0) {
-        cambiarSeccion(1); // abajo
+        cambiarSeccion(1);
     } else {
-        cambiarSeccion(-1); // arriba
+        cambiarSeccion(-1);
     }
 }, { passive: false });
-
 
 //detectar touch
 contenedorDeVideos.addEventListener("touchstart", (e) => {
