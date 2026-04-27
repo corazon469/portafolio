@@ -26,7 +26,6 @@ let touchEndY = 0;
 let indiceActual = 0;
 let bloqueado = false;
 
-let firstPlay = true;
 const startLoop = 15;
 const endLoop = 21;
 
@@ -59,6 +58,13 @@ for (let i = 0; i < 17; i++) {
     container.appendChild(img);
 }
 
+
+
+
+
+
+
+/*
 //funciones
 function cambiarSeccion(direccion) {
     if (bloqueado) return;
@@ -103,18 +109,21 @@ function manejarSwipe() {
 
 
 //loop personalizado 
-video.addEventListener("play", () => {
-    if (firstPlay) {
-        video.currentTime = 0;
-        firstPlay = false;
-    }
-});
 
 video.addEventListener("timeupdate", () => {
-     if (!firstPlay && video.currentTime >= endLoop) {
+     if (video.currentTime >= endLoop) {
          video.currentTime = startLoop + 0.01; 
     } 
 });
+
+
+
+
+
+
+
+
+
 
 // detectar scroll
 contenedorDeVideos.addEventListener("wheel", (e) => {
@@ -128,7 +137,6 @@ contenedorDeVideos.addEventListener("wheel", (e) => {
 }, { passive: false });
 
 
-
 //detectar touch
 contenedorDeVideos.addEventListener("touchstart", (e) => {
     touchStartY = e.changedTouches[0].screenY;
@@ -138,3 +146,5 @@ contenedorDeVideos.addEventListener("touchend", (e) => {
     touchEndY = e.changedTouches[0].screenY;
     manejarSwipe();
 });
+
+*/
