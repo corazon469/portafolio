@@ -64,7 +64,7 @@ for (let i = 0; i < 17; i++) {
 
 
 
-/*
+
 //funciones
 function cambiarSeccion(direccion) {
     if (bloqueado) return;
@@ -146,5 +146,3 @@ contenedorDeVideos.addEventListener("touchend", (e) => {
     touchEndY = e.changedTouches[0].screenY;
     manejarSwipe();
 });
-
-*/
