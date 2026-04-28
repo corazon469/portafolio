@@ -31,7 +31,6 @@ const endLoop = 21;
 let puedeScroll = true;
 const COOLDOWN = 500;
 
-let navegando = false;
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
@@ -175,10 +174,6 @@ contenedorDeVideos.addEventListener("touchend", (e) => {
 
 //detectar click sobre video
 video.addEventListener("click", () => {
-    if (navegando) return;
-
-    navegando = true;
-
     const destino = secciones[indiceActual].link;
     window.location.href = destino;
 });
