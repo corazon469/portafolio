@@ -30,10 +30,11 @@ const startLoop = 15;
 const endLoop = 21;
 
 let acumuladorScroll = 0;
-const UMBRAL = 150; 
+const UMBRAL = 100; 
 let enGesto = false;
 let timeoutGesto;
-const TIEMPO_INACTIVO = 120;
+const TIEMPO_INACTIVO = 200;
+let direccionScroll = 0;
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
@@ -143,31 +144,38 @@ video.addEventListener("timeupdate", () => {
 contenedorDeVideos.addEventListener("wheel", (e) => {
     e.preventDefault();
 
-    // reiniciar timer de gesto
     clearTimeout(timeoutGesto);
     timeoutGesto = setTimeout(() => {
         enGesto = false;
         acumuladorScroll = 0;
+        direccionScroll = 0;
     }, TIEMPO_INACTIVO);
 
-    // si ya estamos en un gesto activo, ignorar
     if (enGesto || bloqueado) return;
 
-    acumuladorScroll += e.deltaY;
+    // fijar dirección SOLO al inicio
+    if (direccionScroll === 0) {
+        direccionScroll = e.deltaY > 0 ? 1 : -1;
+    }
 
-    if (Math.abs(acumuladorScroll) < UMBRAL) return;
+    // ignorar cambios raros de dirección dentro del mismo gesto
+    if ((e.deltaY > 0 && direccionScroll < 0) || (e.deltaY < 0 && direccionScroll > 0)) {
+        return;
+    }
 
-    // ACTIVAMOS gesto (bloquea duplicados)
+    acumuladorScroll += Math.abs(e.deltaY);
+
+    if (acumuladorScroll < UMBRAL) return;
+
     enGesto = true;
 
-    if (acumuladorScroll > 0) {
-        cambiarSeccion(1);
-    } else {
-        cambiarSeccion(-1);
-    }
+    cambiarSeccion(direccionScroll);
 
     acumuladorScroll = 0;
 }, { passive: false });
+
+
+
 
 //detectar touch
 contenedorDeVideos.addEventListener("touchstart", (e) => {
