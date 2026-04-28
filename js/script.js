@@ -29,8 +29,8 @@ let bloqueado = false;
 const startLoop = 15;
 const endLoop = 21;
 
-let ultimoScroll = 0;
-const delayScroll = 800;
+let acumuladorScroll = 0;
+const UMBRAL = 120; 
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
@@ -136,21 +136,23 @@ video.addEventListener("timeupdate", () => {
 
 
 
-
-// detectar scroll
+//detectar scrolll
 contenedorDeVideos.addEventListener("wheel", (e) => {
     e.preventDefault();
 
-    const ahora = Date.now();
+    if (bloqueado) return;
 
-    if (ahora - ultimoScroll < delayScroll) return;
-    ultimoScroll = ahora;
+    acumuladorScroll += e.deltaY;
 
-    if (e.deltaY > 0) {
+    if (Math.abs(acumuladorScroll) < UMBRAL) return;
+
+    if (acumuladorScroll > 0) {
         cambiarSeccion(1);
     } else {
         cambiarSeccion(-1);
     }
+
+    acumuladorScroll = 0;
 }, { passive: false });
 
 //detectar touch
