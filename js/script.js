@@ -49,7 +49,7 @@ for (let i = 0; i < 17; i++) {
 
     img.classList.add("falling");
 
-    const size = Math.random() * 50 + 25;
+    const size = Math.random() * 80 + 40;
     const left = Math.random() * 100;
     const duration = Math.random() * 10 + 5;
     const delay = Math.random() * 15;
