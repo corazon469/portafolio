@@ -139,7 +139,7 @@ main{
     font-size: 0.99rem;
 }
 
-.textoFondoBlanco a, span{
+.textoFondoBlanco a, .textoFondoBlanco span{
     margin-top: 0rem; 
     justify-self: left;
     color: #5C1212;
@@ -344,6 +344,7 @@ main{
 }
 
 .menu-item{
+    padding: 0.3rem;
     margin: 3rem;
     margin-bottom: 0.2rem;
     margin-top: 0.3rem;
