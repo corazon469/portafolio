@@ -154,6 +154,7 @@ main{
 
 
 .textoFondoBlanco{
+    position: relative;
     margin: 0vw;
     padding: 1rem;
     background-color: #F5F5DC;
