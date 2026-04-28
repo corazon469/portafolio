@@ -5,7 +5,7 @@ const secciones = [
     {
         nombre: "Diseño",
         video:"videos/muñecaDiseño.mp4",
-        link: "diseno.html"
+        link: "diseño.html"
     },
     {
         nombre: "Ilustración",
