@@ -339,12 +339,14 @@ main{
 .sidebar-menu{
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 .menu-item{
     margin: 3rem;
-    margin-bottom: 0.2rem;
-    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .galeria{
