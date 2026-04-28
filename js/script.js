@@ -30,7 +30,7 @@ const startLoop = 15;
 const endLoop = 21;
 
 let acumuladorScroll = 0;
-const UMBRAL = 190; 
+const UMBRAL = 200; 
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
