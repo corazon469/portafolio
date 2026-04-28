@@ -30,10 +30,10 @@ const startLoop = 15;
 const endLoop = 21;
 
 let acumuladorScroll = 0;
-const UMBRAL = 100; 
+const UMBRAL = 80; 
 let enGesto = false;
 let timeoutGesto;
-const TIEMPO_INACTIVO = 200;
+const TIEMPO_INACTIVO = 250;
 let direccionScroll = 0;
 
 const video = document.getElementById("videoPlayer");
