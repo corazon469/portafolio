@@ -30,7 +30,7 @@ const startLoop = 15;
 const endLoop = 21;
 
 let acumuladorScroll = 0;
-const UMBRAL = 200; 
+const UMBRAL = 150; 
 let enGesto = false;
 let timeoutGesto;
 const TIEMPO_INACTIVO = 120;
