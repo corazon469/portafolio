@@ -325,4 +325,30 @@ main{
 .sidebar{
     display: flex;
     flex-direction: column;
+    background-color: #39003C;
+    background-image:
+        linear-gradient(rgba(253, 255, 139, 0.2) 2px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 195, 139, 0.2) 2px, transparent 1px);
+
+    background-size:  30px 30px, 30px 30px;
+
+    animation: 
+        moveGrid 5s linear infinite;
+}
+
+.sidebar-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.galeria{
+    background:
+        radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
+        radial-gradient(rgba(255, 190, 190, 0.7) 2px, transparent 2px),
+        linear-gradient(to right, #C22626, #5C1212);
+
+    background-size:  30px 30px, 30px 30px, 100%, 100%;
+
+    animation: 
+        moveGrid 5s linear infinite;
 }
