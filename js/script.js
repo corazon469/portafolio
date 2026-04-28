@@ -29,12 +29,8 @@ let bloqueado = false;
 const startLoop = 15;
 const endLoop = 21;
 
-let acumuladorScroll = 0;
-const UMBRAL = 50; 
-let enGesto = false;
-let timeoutGesto;
-const TIEMPO_INACTIVO = 250;
-let direccionScroll = 0;
+let puedeScroll = true;
+const COOLDOWN = 500;
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
@@ -144,34 +140,22 @@ video.addEventListener("timeupdate", () => {
 contenedorDeVideos.addEventListener("wheel", (e) => {
     e.preventDefault();
 
-    clearTimeout(timeoutGesto);
-    timeoutGesto = setTimeout(() => {
-        enGesto = false;
-        acumuladorScroll = 0;
-        direccionScroll = 0;
-    }, TIEMPO_INACTIVO);
+    if (!puedeScroll || bloqueado) return;
 
-    if (enGesto || bloqueado) return;
+    // ignorar micro movimientos
+    if (Math.abs(e.deltaY) < 30) return;
 
-    // fijar dirección SOLO al inicio
-    if (direccionScroll === 0) {
-        direccionScroll = e.deltaY > 0 ? 1 : -1;
+    puedeScroll = false;
+
+    if (e.deltaY > 0) {
+        cambiarSeccion(1);
+    } else {
+        cambiarSeccion(-1);
     }
 
-    // ignorar cambios raros de dirección dentro del mismo gesto
-    if ((e.deltaY > 0 && direccionScroll < 0) || (e.deltaY < 0 && direccionScroll > 0)) {
-        return;
-    }
-
-    acumuladorScroll += Math.abs(e.deltaY);
-
-    if (acumuladorScroll < UMBRAL) return;
-
-    enGesto = true;
-
-    cambiarSeccion(direccionScroll);
-
-    acumuladorScroll = 0;
+    setTimeout(() => {
+        puedeScroll = true;
+    }, COOLDOWN);
 }, { passive: false });
 
 
