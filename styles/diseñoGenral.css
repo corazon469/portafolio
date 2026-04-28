@@ -154,6 +154,7 @@ main{
 
 
 .textoFondoBlanco{
+    pointer-events: none;
     position: relative;
     margin: 0vw;
     padding: 1rem;
@@ -216,10 +217,6 @@ main{
     width:inherit;
     display: flex;
     justify-content: center;
-}
-
-.vid video{
-    pointer-events: none;
 }
 
 .fadeOverlay{
