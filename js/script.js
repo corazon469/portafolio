@@ -31,6 +31,9 @@ const endLoop = 21;
 
 let acumuladorScroll = 0;
 const UMBRAL = 200; 
+let enGesto = false;
+let timeoutGesto;
+const TIEMPO_INACTIVO = 120;
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
@@ -140,11 +143,22 @@ video.addEventListener("timeupdate", () => {
 contenedorDeVideos.addEventListener("wheel", (e) => {
     e.preventDefault();
 
-    if (bloqueado) return;
+    // reiniciar timer de gesto
+    clearTimeout(timeoutGesto);
+    timeoutGesto = setTimeout(() => {
+        enGesto = false;
+        acumuladorScroll = 0;
+    }, TIEMPO_INACTIVO);
+
+    // si ya estamos en un gesto activo, ignorar
+    if (enGesto || bloqueado) return;
 
     acumuladorScroll += e.deltaY;
 
     if (Math.abs(acumuladorScroll) < UMBRAL) return;
+
+    // ACTIVAMOS gesto (bloquea duplicados)
+    enGesto = true;
 
     if (acumuladorScroll > 0) {
         cambiarSeccion(1);
