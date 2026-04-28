@@ -1,22 +1,21 @@
-
-
-
 //var
 const contenedorDeVideos = document.querySelector(".videosCont");
 
 const secciones = [
     {
         nombre: "Diseño",
-        video:"videos/muñecaDiseño.mp4"
+        video:"videos/muñecaDiseño.mp4",
+        link: "diseno.html"
     },
-
     {
         nombre: "Ilustración",
-        video:"videos/muñecaIlustracion.mp4"
+        video:"videos/muñecaIlustracion.mp4",
+        link: "Ilustracion.html"
     },
     {
         nombre: "Programación",
-        video:"videos/muñecaProgramacion.mp4"
+        video:"videos/muñecaProgramacion.mp4",
+        link: "programacion.html"
     }
 ];
 
@@ -31,6 +30,8 @@ const endLoop = 21;
 
 let puedeScroll = true;
 const COOLDOWN = 500;
+
+let navegando = false;
 
 const video = document.getElementById("videoPlayer");
 const source = document.getElementById("videoSource");
@@ -169,4 +170,15 @@ contenedorDeVideos.addEventListener("touchstart", (e) => {
 contenedorDeVideos.addEventListener("touchend", (e) => {
     touchEndY = e.changedTouches[0].screenY;
     manejarSwipe();
+});
+
+
+//detectar click sobre video
+video.addEventListener("click", () => {
+    if (navegando) return;
+
+    navegando = true;
+
+    const destino = secciones[indiceActual].link;
+    window.location.href = destino;
 });
