@@ -323,6 +323,8 @@ main{
 }
 
 .sidebar{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
     display: flex;
     flex-direction: column;
     background-color: #39003C;
@@ -339,8 +341,6 @@ main{
 .sidebar-menu{
     display: flex;
     flex-direction: column;
-    padding-bottom: 3rem;
-    padding-top: 3rem;
 }
 
 .menu-item{
