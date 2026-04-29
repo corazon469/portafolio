@@ -338,6 +338,7 @@ main{
 }
 
 .sidebar-top{
+    display: flex;
     justify-self: center;
     justify-content: center;
     padding: 1rem 2rem;
@@ -350,7 +351,7 @@ main{
     color: #F5F5DC;
     border: none;
     border-bottom: 0.2rem solid #F5F5DC;
-    background-color: none;
+    background-color: transparent;
 }
 
 .sidebar-menu{
