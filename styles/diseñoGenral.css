@@ -351,15 +351,6 @@ main{
     margin-top: 0.3rem;
 }
 
-.menu-Todos{
-    font-family: Racing;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
-    margin: 3rem;
-    margin-bottom: 1.5rem;
-    margin-top: 0.3rem;
-}
-
 .galeria{
     background:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
