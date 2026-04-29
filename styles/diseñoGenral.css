@@ -337,6 +337,20 @@ main{
         moveGrid 5s linear infinite;
 }
 
+.sidebar-top{
+    justify-self: center;
+    justify-content: center;
+    padding: 1rem 2rem;
+    margin-bottom: 3rem;
+}
+
+.btn-atras{
+    font-family: Racing;
+    font-size: 1.2rem;
+    color: #F5F5DC;
+
+}
+
 .sidebar-menu{
     display: flex;
     flex-direction: column;
@@ -361,6 +375,8 @@ main{
 }
 
 .galeria{
+    justify-self: stretch;
+
     background:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
         radial-gradient(rgba(255, 190, 190, 0.7) 2px, transparent 2px),
