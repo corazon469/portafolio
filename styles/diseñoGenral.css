@@ -343,14 +343,14 @@ main{
 }
 
 .menu-item, .itemTodos{
-    padding: 0.3rem 0;
+    padding: 0.3rem 2rem;
     margin: 0.3rem 3rem;
 }
 
 .itemTodos{
     position: relative;
     background-color: #F5F5DC;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .itemTodos span{
