@@ -348,7 +348,9 @@ main{
     font-family: Racing;
     font-size: 1.2rem;
     color: #F5F5DC;
-
+    border: none;
+    border-bottom: 0.2rem solid #F5F5DC;
+    background-color: none;
 }
 
 .sidebar-menu{
