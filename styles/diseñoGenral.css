@@ -123,7 +123,6 @@ main{
 
 
 .textoFondoBlanco{
-    pointer-events: none;
     position: relative;
     margin: 0vw;
     padding: 1rem;
@@ -343,12 +342,24 @@ main{
     flex-direction: column;
 }
 
-.menu-item{
+.menu-item, .itemTodos{
     padding-top: 0.3rem;
     padding-bottom: 0.3rem;
     margin: 3rem;
     margin-bottom: 0.3rem;
     margin-top: 0.3rem;
+}
+
+.itemTodos{
+    position: relative;
+    background-color: #F5F5DC;
+}
+
+.itemTodos span{
+    margin-top: 0rem; 
+    font-family: Racing;
+    color: #5C1212;
+    font-size: 0.99rem;
 }
 
 .galeria{
