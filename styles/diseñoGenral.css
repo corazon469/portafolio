@@ -343,6 +343,7 @@ main{
     align-items: center;
     padding: 1rem 2rem;
     margin-bottom: 2.5rem;
+    max-height: 100vh;
 }
 
 
@@ -379,6 +380,7 @@ main{
 }
 
 .galeria{
+    max-height: 100vh;
     background:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
         radial-gradient(rgba(255, 190, 190, 0.7) 2px, transparent 2px),
@@ -393,6 +395,7 @@ main{
 }
 
 .grid {
+    width: 100%;
     column-count: 4;
     column-gap: 1rem;
 }
