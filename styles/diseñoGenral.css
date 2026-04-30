@@ -340,8 +340,7 @@ main{
 .sidebar-top{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+    align-items: center;
     padding: 1rem 2rem;
     margin-bottom: 2.5rem;
 }
