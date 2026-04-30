@@ -340,7 +340,7 @@ main{
 .sidebar-top{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-content: center;
     padding: 1rem 2rem;
     margin-bottom: 2.5rem;
 }
