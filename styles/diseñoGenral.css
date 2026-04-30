@@ -322,6 +322,7 @@ main{
 }
 
 .sidebar{
+    max-height: 100vh;
     padding-bottom: 4rem;
     padding-top: 2.5rem;
     display: flex;
@@ -343,7 +344,6 @@ main{
     align-items: center;
     padding: 1rem 2rem;
     margin-bottom: 2.5rem;
-    max-height: 100vh;
 }
 
 
@@ -380,9 +380,9 @@ main{
 }
 
 .galeria{
-    width: 98%;
+    width: 100%;
     flex: 1;
-    max-height: 100vh;
+    max-height: 98vh;
     background:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
         radial-gradient(rgba(255, 190, 190, 0.7) 2px, transparent 2px),
