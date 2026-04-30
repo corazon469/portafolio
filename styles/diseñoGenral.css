@@ -380,7 +380,7 @@ main{
 }
 
 .galeria{
-    width: 100%;
+    width: 98%;
     flex: 1;
     max-height: 100vh;
     background:
