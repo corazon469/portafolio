@@ -319,10 +319,11 @@ main{
 .layout{
     display: flex;
     flex-direction: row;
+    max-height: 98vh;
 }
 
 .sidebar{
-    max-height: 100vh;
+    max-height: 98vh;
     padding-bottom: 4rem;
     padding-top: 2.5rem;
     display: flex;
