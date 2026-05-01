@@ -319,7 +319,10 @@ main{
 .layout{
     display: flex;
     flex-direction: row;
-    max-height: 98vh;
+
+    align-items: stretch;
+
+    height: 98vh;
     overflow: hidden;
 }
 
