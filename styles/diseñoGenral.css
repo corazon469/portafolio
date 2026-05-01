@@ -320,14 +320,17 @@ main{
     display: flex;
     flex-direction: row;
     max-height: 98vh;
+    overflow: hidden;
 }
 
 .sidebar{
-    max-height: 98vh;
     padding-bottom: 4rem;
     padding-top: 2.5rem;
     display: flex;
     flex-direction: column;
+    height: 100%;
+    overflow-y: auto; 
+
     background-color: #39003C;
     background-image:
         linear-gradient(rgba(253, 255, 139, 0.2) 2px, transparent 1px),
@@ -383,7 +386,10 @@ main{
 .galeria{
     width: 100%;
     flex: 1;
-    max-height: 98vh;
+    height: 100%;
+    overflow-y: auto; 
+
+
     background:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
         radial-gradient(rgba(255, 190, 190, 0.7) 2px, transparent 2px),
