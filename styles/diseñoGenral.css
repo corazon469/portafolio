@@ -427,3 +427,35 @@ main{
 .item:nth-child(6) { height: 320px; }
 .item:nth-child(7) { height: 220px; }
 .item:nth-child(8) { height: 270px; }
+
+
+/*layout ilustracion*/
+.layoutIlustration{
+    display: flex;
+    flex-direction: column;
+
+    align-items: stretch;
+
+    height: 98vh;
+    width: 100vw;
+    overflow: hidden;
+
+    background-color: #FF5900;
+    
+    background-image:
+        radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
+        radial-gradient(rgba(77, 0, 4, 0.7) 2px, transparent 2px);
+
+    background-size: 30px 30px;
+
+    animation: 
+        moveGrid 5s linear infinite;
+}
+
+.galeriaILustracion{
+    width: 100%;
+    flex: 1;
+    height: 100%;
+    overflow-y: auto; 
+    padding: 1rem;
+}
