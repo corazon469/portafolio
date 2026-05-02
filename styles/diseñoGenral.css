@@ -465,6 +465,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-items: center;
+    justify-self: center;
 }
 
 .galeriaILustracion{
