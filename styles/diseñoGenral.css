@@ -464,8 +464,8 @@ main{
 .topBar{
     display: flex;
     flex-direction: row;
-    justify-items: center;
-    justify-self: center;
+    align-items: center;
+    align-self: center;
 }
 
 .galeriaILustracion{
