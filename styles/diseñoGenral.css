@@ -440,7 +440,7 @@ main{
     width: 99vw;
     overflow: hidden;
 
-    background-color: #FF5900;
+    background-color:#F5F5DC;
     
     background-image:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
