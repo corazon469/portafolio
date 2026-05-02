@@ -363,6 +363,15 @@ main{
     background-color: transparent;
 }
 
+.btn-atrasMarron{
+    font-family: Racing;
+    font-size: 2rem;
+    color: #5C1212;
+    border: none;
+    border-bottom: 0.2rem solid #5C1212;
+    background-color: transparent;
+}
+
 .sidebar-menu{
     display: flex;
     flex-direction: column;
