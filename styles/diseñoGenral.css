@@ -461,6 +461,7 @@ main{
 }
 
 .topBar{
+    margin: 
     display: flex;
     flex-direction: row;
     align-items: center;
