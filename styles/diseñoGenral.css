@@ -496,7 +496,7 @@ main{
     background-size:  30px 30px, 30px 30px;
 }
 
-.contenidoProyecto{
+.contenidoDeProyecto{
     display: flex;
     flex-direction: column;
     align-items: stretch;
