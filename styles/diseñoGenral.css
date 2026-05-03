@@ -452,7 +452,7 @@ main{
     
     background-image:
         linear-gradient(rgb(255, 0, 0), transparent 2px),
-        linear-gradient(rgb(255, 0, 13) 2px, transparent 2px);
+        linear-gradient(90deg, rgb(255, 0, 13) 2px, transparent 2px);
 
     background-size: 30px 30px;
 
