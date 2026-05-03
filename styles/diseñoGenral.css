@@ -499,6 +499,6 @@ main{
 .contenidoDeProyecto{
     display: flex;
     flex-direction: column;
-    align-items: stretch;
-    justify-items: stretch;
+    height: stretch;
+    margin-bottom: 3rem;
 }
