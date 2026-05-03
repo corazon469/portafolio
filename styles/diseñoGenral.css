@@ -169,6 +169,7 @@ main{
     font-family: Racing;
     font-size: 2.07rem;
     margin: 0vw;
+    padding: 1rem;
 }
 
 
@@ -496,5 +497,8 @@ main{
 }
 
 .contenidoProyecto{
-
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-items: stretch;
 }
