@@ -451,8 +451,8 @@ main{
     background-color:#F5F5DC;
     
     background-image:
-        linear-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
-        linear-gradient(90deg,rgba(68, 0, 0, 0.7) 2px, transparent 2px);
+        linear-gradient(rgba(150, 94, 94, 0.7) 2px, transparent 2px),
+        linear-gradient(90deg,rgba(151, 89, 89, 0.7) 2px, transparent 2px);
 
     background-size: 30px 30px;
 
