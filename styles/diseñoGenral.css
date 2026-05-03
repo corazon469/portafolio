@@ -483,10 +483,10 @@ main{
     height: 100%;
     overflow-y: auto; 
 
-    background-color: FF5900;
+    background-color: #FF5900;
     background-image:
         radial-gradient(rgba(68, 0, 0, 0.7) 2px, transparent 2px),
-        radial-gradient(rgba(255, 190, 190, 0.7) 2px, transparent 2px);
+        radial-gradient(rgba(80, 11, 11, 0.7) 2px, transparent 2px);
 
     background-size:  30px 30px, 30px 30px, 100%, 100%;
 
@@ -494,4 +494,8 @@ main{
         moveGrid 5s linear infinite;
 
     padding: 1rem;
+}
+
+.contenidoProyecto{
+
 }
