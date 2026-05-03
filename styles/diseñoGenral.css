@@ -163,6 +163,14 @@ main{
     margin: 0vw;
 }
 
+.tituloFondoBlanco h2{
+    justify-self: left;
+    color:  #5C1212;
+    font-family: Racing;
+    font-size: 2.07rem;
+    margin: 0vw;
+}
+
 
 /*SUBTITULO CON FONDO ROSA*/
 .fondoRosa{
