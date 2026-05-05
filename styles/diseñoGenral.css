@@ -43,6 +43,12 @@ html {
     z-index: 0;
 }
 
+@media (max-width: 700px) {
+  html{
+    font-size: 10px;
+  }
+}
+
 .theIndexBody{
     background:
         linear-gradient(rgba(253, 255, 139, 0.2) 2px, transparent 1px),
@@ -204,6 +210,12 @@ main{
     flex-direction:row;
 }
 
+@media (max-width: 700px) {
+  .entrada {
+    flex-direction: column;
+  }
+}
+
 .nombreYperfil{
     align-self: center;
 
@@ -244,6 +256,12 @@ main{
 
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+}
+
+@media (max-width: 700px) {
+  .videosCont {
+    align-self: center;
+  }
 }
 
 .vid{
