@@ -43,7 +43,11 @@ html {
     z-index: 0;
 }
 
-
+@media (max-width: 700px) {
+  html{
+    font-size: 14px;
+  }
+}
 
 .theIndexBody{
     background:
