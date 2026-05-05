@@ -501,6 +501,7 @@ main{
     flex-direction: column;
     height: stretch;
     margin-bottom: 3rem;
+    overflow-y: auto;
 }
 
 .fondoBlanco{
