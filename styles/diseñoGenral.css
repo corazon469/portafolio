@@ -39,15 +39,11 @@
 
 
 html {
-    font-size: 24px;
+    font-size: clamp(14px,24px,26px);
     z-index: 0;
 }
 
-@media (max-width: 700px) {
-  html{
-    font-size: 10px;
-  }
-}
+
 
 .theIndexBody{
     background:
