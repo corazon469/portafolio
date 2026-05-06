@@ -271,6 +271,7 @@ main{
   .videosCont {
     align-self: center;
     width: 85vw;
+    height: 90vh;
   }
 }
 
