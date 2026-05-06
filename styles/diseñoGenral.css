@@ -232,7 +232,7 @@ main{
 
 @media (max-width: 1300px) {
   .nombreYperfil{
-    width: 85vw;
+    width: 89vw;
   }
 }
 
@@ -251,7 +251,7 @@ main{
 
 @media (max-width: 900px) {
   .nombreYperfil h4{
-    font-size: 2.3rem;
+    font-size: clamp(2rem, 2.3rem, 2.4rem);
   }
   .nombreYperfil h1{
     font-size: 5rem;
@@ -278,7 +278,7 @@ main{
 @media (max-width: 1300px) {
   .videosCont {
     align-self: center;
-    width: 85vw;
+    width: 89vw;
     height: 90vh;
   }
 }
