@@ -43,7 +43,7 @@ html {
     z-index: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   html{
     font-size: 14px;
   }
@@ -210,7 +210,7 @@ main{
     flex-direction:row;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .entrada {
     flex-direction: column;
   }
@@ -231,7 +231,7 @@ main{
     margin-bottom: 2rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .nombreYperfil{
     width: 85vw;
   }
@@ -264,7 +264,7 @@ main{
     margin-bottom: 2rem;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .videosCont {
     align-self: center;
     width: 85vw;
@@ -329,7 +329,7 @@ main{
         moveGrid 5s linear infinite;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .herramientasY_Educacion{
     flex-direction: column;
   }
