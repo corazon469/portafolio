@@ -45,7 +45,7 @@ html {
 
 @media (max-width: 1300px) {
   html{
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -192,7 +192,6 @@ main{
     font-family: BoldRose;
     font-size: 1.16rem;
 }
-
 
 
 
