@@ -39,7 +39,7 @@
 
 
 html {
-    font-size: clamp(14px,24px,26px);
+    font-size: 24px;
     z-index: 0;
 }
 
@@ -231,6 +231,12 @@ main{
     margin-bottom: 2rem;
 }
 
+@media (max-width: 700px) {
+  .nombreYperfil{
+    width: unset;
+  }
+}
+
 
 .nombreYperfil h1{
     justify-self: left;
@@ -261,6 +267,7 @@ main{
 @media (max-width: 700px) {
   .videosCont {
     align-self: center;
+    width: 85vw;
   }
 }
 
@@ -320,6 +327,12 @@ main{
 
     animation: 
         moveGrid 5s linear infinite;
+}
+
+@media (max-width: 700px) {
+  .herramientasY_Educacion{
+    flex-direction: column;
+  }
 }
 
 .cuadroDeInformacion{
