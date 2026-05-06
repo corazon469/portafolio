@@ -43,7 +43,7 @@ html {
     z-index: 0;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   html{
     font-size: 14px;
   }
@@ -238,14 +238,17 @@ main{
 }
 
 
-.nombreYperfil h1{
+.nombreYperfil h1, .nombreYperfil h4{
     justify-self: left;
     color: #F5F5DC;
     font-family: Racing;
-    font-size: clamp(4rem, 7.45rem, 9rem);
+    font-size: clamp(5rem, 7.45rem, 9rem);
     margin: 0.3rem;
 }
 
+.nombreYperfil h4{
+    font-size: clamp (2rem, 3.5rem, 5rem);
+}
 
 /*contenedor de videos en home*/
 .videosCont{
