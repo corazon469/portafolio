@@ -345,7 +345,7 @@ main{
         moveGrid 5s linear infinite;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   .herramientasY_Educacion{
     flex-direction: column;
   }
