@@ -416,6 +416,10 @@ main{
         moveGrid 5s linear infinite;
 }
 .abrirSidebar{
+    position: fixed;
+    width: 4rem;
+
+    background-color: black;
     left: -100%;
 }
 
@@ -423,6 +427,7 @@ main{
 
     .sidebar{
         position: fixed;
+        left: -100%;
         top: 0;
 
         width: 80vw;
@@ -436,6 +441,8 @@ main{
     }
 
     .abrirSidebar{
+        left: 0;
+        
         position: fixed;
         top: 1rem;
         left: 1rem;
