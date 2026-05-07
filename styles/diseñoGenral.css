@@ -376,6 +376,7 @@ main{
 @media (max-width: 1300px) {
   .divEnRow{
     flex-direction: column;
+    align-items: stretch;
   }
 }
 
