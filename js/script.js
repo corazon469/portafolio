@@ -37,9 +37,12 @@ const source = document.getElementById("videoSource");
 const texto = document.getElementById("seccionActual");
 const overlay = document.querySelector(".fadeOverlay");
 
-
 //estrellas
 const container = document.getElementById("fallingContainer");
+
+//boton estrella
+const boton = document.querySelector(".abrirSidebar");
+const sidebar = document.querySelector(".sidebar");
 
 for (let i = 0; i < 17; i++) {
     const img = document.createElement("img");
@@ -176,4 +179,9 @@ contenedorDeVideos.addEventListener("touchend", (e) => {
 video.addEventListener("click", () => {
     const destino = secciones[indiceActual].link;
     window.location.href = destino;
+});
+
+//sidebar logic 
+boton.addEventListener("click", () => {
+    sidebar.classList.toggle("activa");
 });
