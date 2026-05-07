@@ -416,6 +416,33 @@ main{
         moveGrid 5s linear infinite;
 }
 
+@media (max-width: 700px){
+
+    .sidebar{
+        position: fixed;
+        left: -100%;
+        top: 0;
+
+        width: 80vw;
+        height: 100vh;
+
+        transition: 0.4s;
+    }
+
+    .sidebar.activa{
+        left: 0;
+    }
+
+    .abrirSidebar{
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+
+        width: 4rem;
+        z-index: 5;
+    }
+}
+
 .sidebar-top{
     display: flex;
     flex-direction: column;
