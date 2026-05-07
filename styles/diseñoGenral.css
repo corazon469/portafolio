@@ -442,10 +442,12 @@ main{
 
     .abrirSidebar{
         left: 0;
-        
+
         position: fixed;
         top: 1rem;
         left: 1rem;
+
+        cursor: pointer;
 
         width: 4rem;
         z-index: 5;
