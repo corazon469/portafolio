@@ -398,7 +398,6 @@ main{
 }
 
 .sidebar{
-    position: fixed;
     padding-bottom: 4rem;
     padding-top: 2.5rem;
     display: flex;
