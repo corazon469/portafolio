@@ -440,6 +440,8 @@ main{
 
         width: 4rem;
         z-index: 5;
+
+        background-color: black;
     }
 }
 
