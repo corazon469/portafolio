@@ -415,8 +415,11 @@ main{
     animation: 
         moveGrid 5s linear infinite;
 }
+.abrirSidebar{
+    left: -100%;
+}
 
-@media (max-width: 700px){
+@media (max-width: 800px){
 
     .sidebar{
         position: fixed;
