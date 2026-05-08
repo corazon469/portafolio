@@ -183,5 +183,6 @@ video.addEventListener("click", () => {
 
 //sidebar logic 
 boton.addEventListener("click", () => {
+    console.log("abre");
     sidebar.classList.toggle("activa");
 });

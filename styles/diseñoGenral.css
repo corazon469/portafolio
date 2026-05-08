@@ -427,11 +427,11 @@ main{
 
     .sidebar{
         position: fixed;
-        left: -100%;
+        left: -80vw;
         top: 0;
 
         width: 80vw;
-        height: 100vh;
+        height: 98vh;
 
         transition: 0.4s;
     }
