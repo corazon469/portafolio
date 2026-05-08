@@ -533,6 +533,12 @@ main{
     column-gap: 1rem;
 }
 
+@media (max-width: 800px){
+    .grid{
+        column-count: 2;
+        column-width: auto;
+    }
+}
 
 .item {
     break-inside: avoid;
