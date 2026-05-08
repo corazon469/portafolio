@@ -433,6 +433,8 @@ main{
         width: 95vw;
         height: 98vh;
 
+        z-index: 1;
+
         transition: 0.4s;
     }
 
